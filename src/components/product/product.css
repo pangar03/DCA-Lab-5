@@ -1,0 +1,30 @@
+.product-card {
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.product-card__image {
+    height: 10rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#add-to-cart {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 1.2rem;
+    background-color: #eec04a;
+    color: #111;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
